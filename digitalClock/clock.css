@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html,
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+#clock {
+  margin-left: 50px;
+  padding: 20px;
+  height: 80px;
+  width: 120px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(255, 208, 0);
+}
